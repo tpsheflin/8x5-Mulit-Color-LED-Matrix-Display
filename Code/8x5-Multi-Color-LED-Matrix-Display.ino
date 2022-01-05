@@ -100,7 +100,7 @@ void ROW_Forward_Pulse(){
     case 5 : digitalWrite(ROW_5,  HIGH); CTR_R++; break;
     case 6 : digitalWrite(ROW_6,  HIGH); CTR_R++; break;
     case 7 : digitalWrite(ROW_7,  HIGH); CTR_R++; break;
-    case 8 : digitalWrite(ROW_8,  HIGH); CTR_R=1; break; // Reset the counter to start from the begining
+    case 8 : digitalWrite(ROW_8,  HIGH); CTR_R=1; break; //Reset the counter to start from the begining
    };
 }
                     //column bit map to image, LOW here turns led on, enabling both leds in a column makes amber
